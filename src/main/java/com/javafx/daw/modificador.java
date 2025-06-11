@@ -2,6 +2,7 @@ package com.javafx.daw;
 
 public class modificador {
 
+    //metodo para cambiar de un numero a un caracter
     public char cambionum(int num){
 
         int codigoASCII = num;
@@ -13,6 +14,7 @@ public class modificador {
         return character;
     }
 
+    //metodo para cambiar de un caracter a un numero
     public int cambioletra(char character){
 
         char codigoASCII = character;
